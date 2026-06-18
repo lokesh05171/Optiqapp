@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Optiq - Demand Forecasting & Inventory Optimization</title>
+    <meta name="description" content="Supply chain AI for demand forecasting, inventory optimization, reorder recommendations, lead-time prediction, and scenario planning.">
+    <meta property="og:title" content="Optiq - Demand Forecasting & Inventory Optimization">
+    <meta property="og:description" content="Forecast demand. End the surprises.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://optiq.app">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="index.html" aria-label="Optiq home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>OPTIQ</span>
+      </a>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" data-site-nav aria-label="Primary navigation">
+        <a href="product.html">Product</a>
+        <a href="solutions.html">Solutions</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="customers.html">Customers</a>
+        <a class="nav-cta" href="#waitlist">Request access <span aria-hidden="true">-&gt;</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero page-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">
+            <span></span>
+            Supply Chain AI
+          </div>
+          <h1>Forecast demand. End the surprises.</h1>
+          <p class="hero-lede">
+            Optiq forecasts SKU-level demand, recommends reorder points, and flags lead-time risk before stockouts or overstock drain cash.
+          </p>
+          <form class="waitlist-form" data-waitlist-form>
+            <label class="sr-only" for="home-email">Work email</label>
+            <input id="home-email" type="email" name="email" placeholder="Work email" autocomplete="email" required>
+            <button class="btn btn-primary" type="submit">Request early access <span aria-hidden="true">-&gt;</span></button>
+            <p class="form-message" data-form-message aria-live="polite"></p>
+          </form>
+          <div class="counter-line">
+            <strong data-waitlist-count>1,284</strong>
+            operators joined the early-access waitlist
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Demand forecast and inventory dashboard mockup">
+          <div class="soft-bg"></div>
+          <div class="browser-frame dashboard-frame">
+            <div class="browser-top">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="url">optiq.app/dashboard</span>
+            </div>
+            <div class="dashboard-shell">
+              <aside class="dash-sidebar">
+                <div class="mini-brand">
+                  <span class="brand-mark small"></span>
+                  <b>OPTIQ</b>
+                </div>
+                <span class="sidebar-pill active">Forecast</span>
+                <span class="sidebar-pill">Inventory</span>
+                <span class="sidebar-pill">Suppliers</span>
+                <span class="sidebar-pill">Scenarios</span>
+              </aside>
+              <section class="dash-main">
+                <div class="dash-toolbar">
+                  <div>
+                    <span class="tiny-label">Demand forecast</span>
+                    <h2>SKU forecast health</h2>
+                  </div>
+                  <span class="status-pill">Live sync</span>
+                </div>
+                <div class="metric-grid">
+                  <article>
+                    <span>Forecast accuracy</span>
+                    <strong>94.8%</strong>
+                    <small>+8.2% vs last cycle</small>
+                  </article>
+                  <article>
+                    <span>Stockout risk</span>
+                    <strong>12 SKUs</strong>
+                    <small>needs reorder</small>
+                  </article>
+                  <article>
+                    <span>Cash released</span>
+                    <strong>$420K</strong>
+                    <small>excess stock avoided</small>
+                  </article>
+                </div>
+                <div class="forecast-panel">
+                  <div class="chart-head">
+                    <span>Demand by week</span>
+                    <b>Actual vs Optiq</b>
+                  </div>
+                  <div class="forecast-chart" data-animated-chart>
+                    <span style="--h: 48%"></span>
+                    <span style="--h: 62%"></span>
+                    <span style="--h: 58%"></span>
+                    <span style="--h: 76%"></span>
+                    <span style="--h: 66%"></span>
+                    <span style="--h: 84%"></span>
+                    <span style="--h: 72%"></span>
+                    <span style="--h: 91%"></span>
+                    <svg viewBox="0 0 420 180" role="img" aria-label="Rising forecast line">
+                      <path class="chart-path base" d="M18 132 C62 96, 94 118, 132 86 S205 72, 242 104 S315 126, 400 50"></path>
+                      <path class="chart-path accent" d="M18 132 C62 96, 94 118, 132 86 S205 72, 242 104 S315 126, 400 50"></path>
+                    </svg>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="logo-band">
+        <div class="eyebrow centered"><span></span> Built for teams running real inventory</div>
+        <div class="logo-row" aria-label="Example customer segments">
+          <span>Retail</span>
+          <span>DTC</span>
+          <span>Manufacturing</span>
+          <span>Distribution</span>
+          <span>Commerce</span>
+          <span>Operations</span>
+        </div>
+      </section>
+
+      <section class="split-section">
+        <div>
+          <div class="eyebrow"><span></span> The problem it solves</div>
+          <h2>Stockouts and overstock are the same forecasting failure.</h2>
+        </div>
+        <p>
+          Most supply chains still run on spreadsheets maintained by one person who cannot afford to step away. Optiq turns scattered sales, supplier, and inventory data into calm operating decisions.
+        </p>
+      </section>
+
+      <section class="feature-strip" id="product">
+        <article class="feature-card">
+          <div class="feature-icon">01</div>
+          <h3>SKU-level demand forecasting</h3>
+          <p>Model demand patterns at product, channel, and location level so planners can act before the month goes sideways.</p>
+        </article>
+        <article class="feature-card dark-card">
+          <div class="feature-icon">02</div>
+          <h3>Inventory and reorder recommendations</h3>
+          <p>Balance service levels and working capital with recommended safety stock, reorder points, and replenishment windows.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">03</div>
+          <h3>Lead-time risk and scenarios</h3>
+          <p>Anticipate supplier delays, run scenario plans, and prepare responses to disruptions before they arrive.</p>
+        </article>
+      </section>
+
+      <section class="dark-process">
+        <div class="process-head">
+          <div>
+            <div class="eyebrow"><span></span> How it works</div>
+            <h2>From messy spreadsheets to clear inventory decisions in 5 steps.</h2>
+          </div>
+          <p>Optiq connects to your current systems, learns the demand pattern, and gives teams recommendations they can defend.</p>
+        </div>
+        <div class="process-list">
+          <article>
+            <span class="process-icon">C</span>
+            <h3>Connect data</h3>
+            <p>Bring in sales, inventory, supplier, ERP, and commerce data without changing the way the team works.</p>
+            <b>01</b>
+          </article>
+          <article>
+            <span class="process-icon">F</span>
+            <h3>Forecast demand</h3>
+            <p>Generate SKU-level forecasts with clear confidence bands and seasonality signals.</p>
+            <b>02</b>
+          </article>
+          <article>
+            <span class="process-icon">R</span>
+            <h3>Recommend reorder points</h3>
+            <p>Set smarter inventory targets by product, location, and service-level goal.</p>
+            <b>03</b>
+          </article>
+          <article>
+            <span class="process-icon">S</span>
+            <h3>Simulate disruptions</h3>
+            <p>Plan responses for supplier slips, demand spikes, capacity constraints, and logistics delays.</p>
+            <b>04</b>
+          </article>
+          <article>
+            <span class="process-icon">A</span>
+            <h3>Act with alerts</h3>
+            <p>Send planner-ready alerts to the teams responsible for buying, allocation, and fulfillment.</p>
+            <b>05</b>
+          </article>
+        </div>
+      </section>
+
+      <section class="metrics-section">
+        <div class="eyebrow"><span></span> Impact at scale</div>
+        <div class="metrics-head">
+          <h2>The numbers that matter.</h2>
+          <p>Forecast accuracy, stockout reduction, and working-capital efficiency become visible in one operating view.</p>
+        </div>
+        <div class="big-metrics">
+          <article>
+            <strong>94%</strong>
+            <span>forecast accuracy on active SKUs</span>
+          </article>
+          <article>
+            <strong>31%</strong>
+            <span>reduction in stockout exposure</span>
+          </article>
+          <article>
+            <strong>$2.4M</strong>
+            <span>inventory cash unlocked annually</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta-dark" id="waitlist">
+        <div class="grid-glow"></div>
+        <div class="eyebrow centered"><span></span> Join the waitlist</div>
+        <h2>Ready to stop forecasting in the dark?</h2>
+        <p>Request early access and see how Optiq turns demand volatility into planning confidence.</p>
+        <form class="waitlist-form centered-form" data-waitlist-form>
+          <label class="sr-only" for="footer-email">Work email</label>
+          <input id="footer-email" type="email" name="email" placeholder="Work email" autocomplete="email" required>
+          <button class="btn btn-primary" type="submit">Request access <span aria-hidden="true">-&gt;</span></button>
+          <p class="form-message" data-form-message aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <a class="brand inverse" href="index.html">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>OPTIQ</span>
+        </a>
+        <p>Supply chain AI for demand forecasting and inventory optimization.</p>
+      </div>
+      <div>
+        <h3>Pages</h3>
+        <a href="product.html">Product</a>
+        <a href="solutions.html">Solutions</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="customers.html">Customers</a>
+      </div>
+      <div>
+        <h3>Product</h3>
+        <a href="product.html#forecasting">Demand forecasting</a>
+        <a href="product.html#inventory">Inventory optimization</a>
+        <a href="product.html#scenario">Scenario planning</a>
+      </div>
+      <div>
+        <h3>Legal</h3>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Security</a>
+        <a href="#">DPA</a>
+      </div>
+      <p class="copyright">All rights reserved (c) 2026 Optiq - optiq.app</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

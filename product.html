@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Product - Optiq</title>
+    <meta name="description" content="Explore Optiq's demand forecasting, inventory optimization, lead-time prediction, scenario planning, integrations, and forecast reporting.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="index.html" aria-label="Optiq home"><span class="brand-mark" aria-hidden="true"></span><span>OPTIQ</span></a>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+      <nav class="site-nav" data-site-nav aria-label="Primary navigation">
+        <a href="product.html" aria-current="page">Product</a>
+        <a href="solutions.html">Solutions</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="customers.html">Customers</a>
+        <a class="nav-cta" href="#waitlist">Request access <span aria-hidden="true">-&gt;</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="eyebrow centered"><span></span> Product engine</div>
+        <h1>One planning system for demand, inventory, and logistics risk.</h1>
+        <p>Optiq replaces brittle spreadsheet rituals with SKU-level forecasts, reorder recommendations, and scenario plans your team can trust.</p>
+      </section>
+
+      <section class="product-showcase">
+        <div class="browser-frame wide-dashboard">
+          <div class="browser-top">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="url">optiq.app/forecast</span>
+          </div>
+          <div class="planning-grid">
+            <div class="planning-side">
+              <span class="sidebar-pill active">Demand forecast</span>
+              <span class="sidebar-pill">Reorder points</span>
+              <span class="sidebar-pill">Lead-time risk</span>
+              <span class="sidebar-pill">Scenario plans</span>
+            </div>
+            <div class="planning-main">
+              <div class="dash-toolbar">
+                <div>
+                  <span class="tiny-label">Forecast run - Week 28</span>
+                  <h2>Planning command center</h2>
+                </div>
+                <span class="status-pill blue">Accuracy +9.4%</span>
+              </div>
+              <div class="sku-table">
+                <div class="sku-row head"><span>SKU</span><span>Forecast</span><span>On hand</span><span>Action</span></div>
+                <div class="sku-row"><span>HX-401</span><span>8,420</span><span>2.1 weeks</span><b>Reorder</b></div>
+                <div class="sku-row"><span>MX-118</span><span>4,805</span><span>6.8 weeks</span><b class="calm">Hold</b></div>
+                <div class="sku-row"><span>RT-774</span><span>12,230</span><span>1.4 weeks</span><b>Expedite</b></div>
+              </div>
+              <div class="forecast-panel compact">
+                <div class="chart-head"><span>Projected demand</span><b>Confidence band</b></div>
+                <div class="forecast-chart" data-animated-chart>
+                  <span style="--h: 38%"></span>
+                  <span style="--h: 54%"></span>
+                  <span style="--h: 69%"></span>
+                  <span style="--h: 63%"></span>
+                  <span style="--h: 72%"></span>
+                  <span style="--h: 88%"></span>
+                  <span style="--h: 79%"></span>
+                  <span style="--h: 95%"></span>
+                  <svg viewBox="0 0 420 180" role="img" aria-label="Animated forecast line">
+                    <path class="chart-path base" d="M18 142 C58 120, 92 126, 132 88 S205 76, 242 96 S315 118, 400 42"></path>
+                    <path class="chart-path accent" d="M18 142 C58 120, 92 126, 132 88 S205 76, 242 96 S315 118, 400 42"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-matrix">
+        <article id="forecasting">
+          <span class="matrix-icon">F</span>
+          <h2>Demand forecasting</h2>
+          <p>Forecast at SKU, channel, region, and warehouse level with seasonality, trend shifts, and promotions included.</p>
+        </article>
+        <article id="inventory">
+          <span class="matrix-icon">I</span>
+          <h2>Inventory optimization</h2>
+          <p>Recommend inventory levels, reorder points, and safety stock while protecting margin and working capital.</p>
+        </article>
+        <article>
+          <span class="matrix-icon">L</span>
+          <h2>Logistics lead-time prediction</h2>
+          <p>Predict supplier and lane delays from historical behavior, live variance, and operational constraints.</p>
+        </article>
+        <article id="scenario">
+          <span class="matrix-icon">S</span>
+          <h2>Scenario planning and alerts</h2>
+          <p>Simulate demand spikes, delayed shipments, missed production windows, and supply shocks before they hurt customers.</p>
+        </article>
+        <article>
+          <span class="matrix-icon">E</span>
+          <h2>ERP and commerce integrations</h2>
+          <p>Connect planning data from your ERP, WMS, OMS, ecommerce platform, supplier sheets, and BI tools.</p>
+        </article>
+        <article>
+          <span class="matrix-icon">R</span>
+          <h2>Forecast-accuracy reporting</h2>
+          <p>Track forecast accuracy, stockout exposure, overstock risk, and planner interventions over time.</p>
+        </article>
+      </section>
+
+      <section class="integration-panel">
+        <div class="eyebrow centered"><span></span> Technology and integrations</div>
+        <h2>Best-in-class planning data. Expert integration.</h2>
+        <div class="integration-grid" aria-label="Integration examples">
+          <span>ERP</span><span>WMS</span><span>OMS</span><span>BI</span><span>CSV</span><span>API</span><span>DTC</span><span>3PL</span>
+          <span>EDI</span><span>Shop</span><span>CRM</span><span>POS</span><span>SQL</span><span>Sheets</span><span>Slack</span><span>Email</span>
+        </div>
+      </section>
+
+      <section class="cta-dark" id="waitlist">
+        <div class="grid-glow"></div>
+        <div class="eyebrow centered"><span></span> Request access</div>
+        <h2>Bring Optiq into your planning workflow.</h2>
+        <p>Join the early-access list and get a product walkthrough tailored to your inventory model.</p>
+        <form class="waitlist-form centered-form" data-waitlist-form>
+          <label class="sr-only" for="product-email">Work email</label>
+          <input id="product-email" type="email" name="email" placeholder="Work email" autocomplete="email" required>
+          <button class="btn btn-primary" type="submit">Request access <span aria-hidden="true">-&gt;</span></button>
+          <p class="form-message" data-form-message aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand"><a class="brand inverse" href="index.html"><span class="brand-mark" aria-hidden="true"></span><span>OPTIQ</span></a><p>Supply chain AI for demand forecasting and inventory optimization.</p></div>
+      <div><h3>Pages</h3><a href="product.html">Product</a><a href="solutions.html">Solutions</a><a href="pricing.html">Pricing</a><a href="customers.html">Customers</a></div>
+      <div><h3>Product</h3><a href="#forecasting">Demand forecasting</a><a href="#inventory">Inventory optimization</a><a href="#scenario">Scenario planning</a></div>
+      <div><h3>Legal</h3><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Security</a><a href="#">DPA</a></div>
+      <p class="copyright">All rights reserved (c) 2026 Optiq - optiq.app</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
