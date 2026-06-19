@@ -1808,3 +1808,8 @@ h3 {
     font-size: 44px;
   }
 }
+.logo {
+    height: 50px;
+    width: auto;
+    display: block;
+}
